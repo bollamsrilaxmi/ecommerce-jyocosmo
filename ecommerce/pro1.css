@@ -1,0 +1,46 @@
+/* Customize styles to match your website's design */
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+}
+
+.product-details {
+    flex: 1;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+.quantity-selector {
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('COSMO3.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #de099e;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+
+.hero .shop-now-btn {
+    background-color: #ff3366;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size
